@@ -50,7 +50,7 @@ Create a script that is called `give_uid`. This script may be either python or b
 The script should print the expression file contents, substituting the column headers with the `uid` from the expression file.
 
 Below is a snapshot in excel, noting the uids come from the TRGN.clinical.tsv file. 
-![](https://itg.usc.edu/site/wp-content/uploads/2020/10/uid.png)
+![https://itg.usc.edu/site/wp-content/uploads/2020/10/uid.png](https://itg.usc.edu/site/wp-content/uploads/2020/10/uid.png)
 
 #### Example Usage:
 `give_uid TRGN.rna.tsv TRGN.clinical.tsv > trgn.rna.uids.tsv`
@@ -68,4 +68,4 @@ Create a script called `tumor_stage.subset` that substitutes column names with t
 #### Example Usage:
 `tumor_stage.subset trgn.rna.uids.tsv TRGN.clinical.tsv > trgn.rna.tumor_stage.tsv`
 
-![](https://itg.usc.edu/site/wp-content/uploads/2020/10/stage.png)
+![https://itg.usc.edu/site/wp-content/uploads/2020/10/stage.png](https://itg.usc.edu/site/wp-content/uploads/2020/10/stage.png)
